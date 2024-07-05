@@ -1,12 +1,15 @@
+.counter-holder{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.digit{
+   color: white;
+   font-weight: bolder;
+   font-size: 4rem;
+   border:solid 1px;
+   padding: 10px;
+}
